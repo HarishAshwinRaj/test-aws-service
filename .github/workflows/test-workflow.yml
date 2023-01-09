@@ -30,7 +30,7 @@ jobs:
         run: echo "Hello, world!"> file1.txt
       - name: git checkout
         run: |
-           git config --global user.name "github-actions[bot]"
+          git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git status
           git add .
